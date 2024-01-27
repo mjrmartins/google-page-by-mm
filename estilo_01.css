@@ -1,0 +1,193 @@
+*{
+    margin: 0px;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+#apps img{
+    width: 24px;
+    aspect-ratio: 1/1;
+    cursor: pointer;
+    border: 1px solid rgba(0,0,0,0);
+    border-radius: 50px;
+}
+
+#apps img:hover{
+    box-shadow: 0px 0px 2px 6px rgba(0,0,0,0.15);
+    border-radius: 50px;
+}
+
+#miguel img{
+    border-radius: 50px;
+    width: 32px;
+    cursor: pointer;
+}
+
+#miguel img:hover{
+    box-shadow: 0px 0px 2px 3px rgba(0,0,0,0.15);
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.link_header a{
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+}
+
+.link_header a:hover{
+    text-decoration: underline;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    width: 272px;
+    height: 92px;
+}
+
+#lupa{
+    width: 18px;
+    aspect-ratio: 1/1;
+    margin-left: 6px;
+}
+
+#teclado{
+    width: 30px;
+    cursor: pointer;
+}
+
+#mic{
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.textbox{
+    display: flex;
+    justify-content: left;
+    gap: 15px;
+    margin-top: 20px;
+    padding-left: 10px;
+    align-items: center;
+    border: 1px solid rgb(223, 225, 229);
+    border-radius: 50px;
+    min-height: 44px;
+    width: auto;
+    max-width: 584px;
+
+}
+
+.textbox:hover{
+    border: 1px solid rgba(223,225,229,0);
+    box-shadow: 0px 1px 6px rgba(32,33,36,.28);
+}
+
+#text{
+    width: 40vw;
+    height: 4vh;
+    border: 0px solid rgba(0, 0, 0, 0);
+    outline-style: none;
+}
+
+.botoes{
+    padding-top: 15px;
+    display: flex;
+    gap: 15px;
+}
+
+.botoes button{
+    background-color: rgb(248, 249, 250);
+    color: rgb(32, 33, 36);
+    border: 0px solid rgba(0, 0, 0, 0);
+    border-radius: 4px;
+    padding: 0px 16px;
+    height: 36px;
+    margin: 11px 4px;
+    cursor: pointer;
+}
+
+.botoes button:hover{
+    border: 1px solid rgb(218, 220, 224);
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.15);
+}
+
+#disponibilizado{
+    margin-top: 30px;
+}
+
+#disponibilizado a{
+    text-decoration: none;
+    color: blue;
+}
+
+#disponibilizado a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: rgb(242, 242, 242);
+}
+
+#tuga{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    border-bottom: 1px solid rgb(218, 220, 224);
+    color: rgb(112, 117, 122);
+    font-size: 15px;
+}
+
+#folha{
+    margin-right: 6px;
+    height: 14px;
+}
+
+#emissoes{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    color: rgb(125, 125, 125);
+}
+
+#emissoes a{
+    text-decoration: none;
+    color: rgb(112, 117, 122);
+}
+
+#emissoes a:hover{
+    text-decoration: underline;
+}
+
+#navs{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    padding-bottom: 15px;
+}
+
+#navs a{
+    padding: 15px;
+    color: rgb(112, 117, 122);
+    text-decoration: none;
+}
+
+#navs a:hover{
+    text-decoration: underline;
+}
